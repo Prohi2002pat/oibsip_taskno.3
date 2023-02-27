@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Temperature Converter by Rohit Patil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="converter" class="container">
+    <img src="meter.jpg" alt = "Thermo" class="logo">
+    <h1>TEMPERATURE CONVERTER</h1>
+    <br>
+    <div id="text-and-clear">
+      <input type="text" id="temp-to-convert">
+      <button type="button" class="btn btn-light" id="clear">Clear</button>
+    </div>
+    <h3>CONVERTED TO:</h3>
+    <div id="tempButtons" class="container">
+      <input type="radio" id="fahrenheit-radio" name="temp" value="FAHRENHEIT">FAHRENHEIT<br>
+      <input type="radio" id="celsius-radio" name="temp" value="CELSIUS">CELSIUS<br>
+    </div>
+    <button type="button" class="btn btn-primary" id="convert-button">Convert!</button>
+    <h4>Hence the converted temperature is:</h4>
+    <div id="temp-zone" class="container">
+      <p id="converted"></p>
+      
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
